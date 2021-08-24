@@ -54,7 +54,7 @@ h1 span {
     flex-flow:column ;
     height: 512px;
     width: 100vw;
-    background-image: url('./img/fondolowbanner.png');
+    background-image: url('/img/fondolowbanner.png');
     justify-content: space-around;
     align-items: center;
 }
@@ -171,7 +171,7 @@ main h2 {
     }
 
 .compus {
-    background-image: url('./img/computadoras.png');
+    background-image: url('../img/computadoras.png');
 }
 
 .estrellas article {
@@ -279,7 +279,7 @@ line-height: 12px;
     margin: 0px 5px;
  
     }
-.lowbanner {background-image: url('/img/fondolowbannerwide.png');
+.lowbanner {background-image: url('./img/fondolowbannerwide.png');
     max-width: 1024px
 }
 

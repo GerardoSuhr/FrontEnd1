@@ -279,7 +279,7 @@ line-height: 12px;
     margin: 0px 5px;
  
     }
-.lowbanner {background-image: url('img/fondolowbannerwide.png');
+.lowbanner {background-image: url('./img/fondolowbannerwide.png');
     max-width: 1024px
 }
 

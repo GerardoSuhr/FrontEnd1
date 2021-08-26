@@ -308,6 +308,27 @@ color: #FBFFFD;
 }
 
 
+.agregar {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: #00669F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agregar a p {
+ font-size: 4rem;
+ color:#F3F3F3;
+
+}
+
+.agregar a {
+    text-decoration: none;
+}
+
+
 /* Footer */
 
 footer {
@@ -330,6 +351,10 @@ footer div {
         
 
 }
+
+
+
+
 
 
 @media (max-height: 750px) {

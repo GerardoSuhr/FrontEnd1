@@ -3,16 +3,14 @@
     padding: 0px;
     margin:0px;}
 
-/* ---------DESKTOP -----------*/
-
-
 /* ---------Header -----------*/
-header { width: 100vw;
+
+header { width: 1024px;
 }
 /* Top Banner*/
 .top-banner { display: flex;
     font-family: "Roboto";
-font-size: 18px;
+font-size: 10px;
 font-style: normal;
 font-weight: 400;
 line-height: 12px;
@@ -21,12 +19,13 @@ color: #F3F3F3;
 background-color: #222222;
 align-items: center;
 justify-content: space-between;
-height: 30px
+height: 20px
 }
 
 .top-banner p { 
         font-family: "Roboto";
-       font-style: normal;
+    font-size: 10px;
+    font-style: normal;
     font-weight: 400;
     line-height: 12px;
     letter-spacing: 0em;
@@ -35,13 +34,12 @@ height: 30px
 
 .top-banner nav { display: flex;
         font-family: "Roboto";
-      font-style: normal;
+    font-size: 10px;
+    font-style: normal;
     font-weight: 400;
     line-height: 12px;
     letter-spacing: 0em;
-    position: relative;
-    right: 10vw
-    
+    margin: 0px 20px 0px 0px; 
         
 }
 
@@ -56,27 +54,19 @@ list-style: none;}
 .low-banner { display: flex; 
     color:#FFFFFF;
     background-color: #F0A83E;
-    height: 93px;
+    height: 62px;
 align-items: center;
 justify-content: space-between;
         }
 
 .low-banner h2 {font-family: "Roboto";
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0em;
     margin: 0px 0px 0px 30px;
         }
-
-.low-banner h2::before {
-           content: url('/img/Cat.png')
-    
-}
-.low-banner h2::after {
-    content: url('/img/Dog.png')
-}
 
 .low-banner h2 span {color:#3C2313}
 
@@ -90,17 +80,12 @@ margin: 0px 15px 0px 0px;
 .low-banner ul li {
     margin: 0px 20px ;
     font-family: "Roboto";
-/* font-size: 20px; */
+font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: 15px;
 letter-spacing: 0em;
 }
-
-.low-banner ul li::before{
-    content: url('/img/paw.png')
-}
-
 
 .low-banner img { display: none}
 
@@ -113,13 +98,12 @@ letter-spacing: 0em;
     color: #3C2313;
     background-color: #FFFFFF;
     background-image: url('../img/bowl.png');
-    height: 760px;
-    width: 100vw;
+    height: 409px;
+    width: 1024px;
     background-size: 100%;
     display: flex;
       align-items:center;
-   justify-content: center;
-
+   justify-content: flex-end;
 }
 
 .main-banner div { display: flex;
@@ -127,7 +111,6 @@ letter-spacing: 0em;
 justify-content: center;
 align-items: center;
 margin: 0px 10px 0px 0px;
-
 }
 
     section.main-banner h2 { 
@@ -173,7 +156,7 @@ justify-content: center;
 /* Main*/
 .main {display: flex; 
 flex-flow: column;
-width: 100vw;
+width: 1024px;
 
 /* Main Top*/
 }
@@ -229,6 +212,8 @@ color: #666666;
     width: 265px;
     background-color: #FBFAF6;
     align-items: center;
+
+
     }
 
 .main-middle img {width: 265px}
@@ -256,7 +241,7 @@ color: #3C2313;
 
 .main-bottom {display: flex;
     flex-flow: column;
-    width: 100vw; 
+    width: 1024px; 
    
     align-items: center;
 }
@@ -271,7 +256,6 @@ letter-spacing: 0em;
 color: #3C2313;
 
 }
-
 
 .main-bottom div {
     Display: flex;
@@ -327,7 +311,7 @@ margin: 10px 5px;
 /* Formulario*/
 .formulario { display: flex;
     height: 60px;
-    width: 100vw; 
+    width: 1024px;
     background-color: #F0A83E;
     align-items: center;
     justify-content: space-around;
@@ -385,7 +369,7 @@ justify-content: center;
 
 .footer-middle {
     display: flex;
-    width: 100vw; 
+    width: 1024px;
 height: 284px;
 background-color: #3C2313;
 align-items: center;
@@ -408,26 +392,9 @@ justify-content: flex-start;
 #correo {height: 66px;
 width: 259px;}
 
-.footer-middle h2 {
+#logo {
     position: relative;
-    left: 60vw;
-    font-family: 'Roboto';
-    font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 23px;
-color: #F0A83E;
-}
-.footer-middle h2 span {
-    color: #FFFFFF;
-}
-
-.footer-middle h2::before {
-    content: url('/img/Cat.png')
-}
-
-.footer-middle h2::after {
-    content: url('/img/Dog.png')
+    left: 500px;
 }
 
 /* Footer Bottom*/
@@ -435,12 +402,12 @@ color: #F0A83E;
 .footer-bottom { display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw; 
-height: 40px;
+width: 1024px;
+height: 20px;
 background-color: #222222;
 color: #FFFFFF;
 font-family: "Roboto";
-font-size: 20px;
+font-size: 10px;
 font-style: normal;
 font-weight: 700;
 line-height: 12px;
@@ -449,86 +416,47 @@ text-align: left;
 
 }
 
-/* ---------MOBILE -----------*/
+
 @media (max-width:480px) and (orientation: portrait) {
 
 
     /* ---------Header -----------*/
     header {width: 100vw;}
-
     .top-banner { display: none;}
     .low-banner ul {display: none;}
 
     .low-banner img { display: flex;
     position: relative;
 right: 10%}
-    .low-banner h2 {font-size:1.5rem}    
 
-
- /* ---------Body -----------*/
 /* Main Banner*/
 .main-banner {width: 100vw;
 background-repeat: no-repeat;
-background-size: cover;
-height: 400px;
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.main-banner div {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    
-}
+background-size: cover;}
 
 .main-banner div h2 {
     width: 80vw;
-    font-size: 1.4rem;
-   
+    font-size: 1.6rem;
+    position: relative;
+    Right: 10%;
 } 
-
-.main-banner div p { font-weight: bold;
-    position: relative;
-    left: 5rem;
+.main {
+    width: 100vw;
 }
-
-.main-banner div span {
-    position: relative;
-    left: 5rem;
-}
-
 
 .topsection h1 {
     text-align: center;
-    width: 15rem;
-  
 }
 
-
-.main-bottom h2 {
-    font-size: 2rem
+.main-bottom{
+    width: 100vw;
 }
-
-
-.box {
-    margin: 30px 0px
-}
-
-.main-bottom .reset, .main-bottom .send {
-    width: 10rem;
-  }
-
 
 /* <!-- Footer --> */
 
 .formulario {
-    height: 100px;
-    padding: 0px 0px 10px 0px ;
-    
+    height: 90px;
+    width: 100vw;
     flex-wrap: wrap;
     }
 
@@ -544,35 +472,27 @@ align-items: center;
 
 .suscribirme {position: relative;
     left: -12px;
-    font-size: 1rem;
-    width: 8rem
+    font-size: 0.7rem;
 
 }
 .footer-middle {
-    
+    width: 100vw;
     height: 330px;
     padding: 50px 0px 0px 0px;
     flex-flow: column;
     align-items: center;
 }
 
-.footer-middle h2{ left: 0px;
+#logo { left: 0px;
     order:1;
     margin: -25px 0px 20px 0px; 
-    font-size: 1.2rem
- }
+}
 
 .footer-middle div { 
-    align-self: flex-start;
-    position:relative;
-    left: 6rem;
+    width: 100vw;
     order:2}
 
 .footer-bottom {
-   font-size: 1rem; 
-height: 20px ;
-font-weight: normal}
+    width: 100vw;}
 
 }
-
-

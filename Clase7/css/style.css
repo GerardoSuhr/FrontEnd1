@@ -1,0 +1,38 @@
+header { background-color: #E6E6E6;
+    text-align: center;
+    line-height: 189px;}
+
+h1 {color: #005677;
+    text-align: center;   
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-feature-settings: 'cpsp' on;
+    background-color:  #C4C4C4;
+    background-size: contain;
+    }
+h2{font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-feature-settings: 'cpsp' on;
+    background-color:  #C4C4C4;
+    color: #005677;}
+
+.negrita-italica {
+    font-weight: bold;
+    font-style: italic;
+}   
+footer {     text-align: center;
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    background-color: #005677;
+    color: #FFFFFF;
+        
+}
